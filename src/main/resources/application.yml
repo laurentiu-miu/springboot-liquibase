@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gcp:
+      spanner:
+        instance-id: test-instance
+        database: testdb
+        emulator:
+          enabled: true
+        project-id: test-project

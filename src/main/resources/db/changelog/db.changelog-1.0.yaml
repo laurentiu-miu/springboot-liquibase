@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20210401-01
+      author: LaurentiuM
+      changes:
+        - createTable:
+            tableName: CUSTOM_TABLE
+            columns:
+                  name: ID
+                  type: STRING(36)
+              - column:
+                  name: VERSION
+                  type: TIMESTAMP
+              - column:
+                  name: NAME
+                  type: STRING(255)
