@@ -7,3 +7,6 @@ spring:
         emulator:
           enabled: true
         project-id: test-project
+  datasource:
+    driverClassName: com.google.cloud.spanner.jdbc.JdbcDriver
+    url: jdbc:cloudspanner://localhost:9010/projects/test-project/instances/test-instance/databases/testdb;usePlainText=true
